@@ -1,92 +1,89 @@
-💐 Website Toko Bunga
+# 💐 Website Toko Bunga
 
 Website sederhana untuk toko bunga online yang dibuat menggunakan PHP dan Bootstrap sebagai bagian dari tugas UAS Pemrograman Web 1.
 
-🌟 Fitur Utama
+## 🌟 Fitur Utama
 
-🏠 Home: Halaman utama berisi pengantar singkat
-🖼️ Gallery: Menampilkan bunga berdasarkan kategori
-Bunga Romance
-Bunga Ultah
-Bunga Graduation
-Bunga Duka
+- 🏠 Home: Halaman utama berisi pengantar singkat
+- 🖼️ Gallery: Menampilkan bunga berdasarkan kategori
 Setiap bunga ditampilkan dalam card dengan tombol “Lihat Cerita” (modal dengan gambar, deskripsi, dan harga)
-👤 Profile: Menampilkan informasi tentang toko
-📝 Form:
-Pendaftaran member
-Formulir pembelian (dengan promo otomatis mengisi jenis bunga dan jumlah tangkai)
-Komentar pengguna
-📞 Contact Us: Halaman kontak (Instagram, email, dll)
-🧾 Tabel Harga Bunga: Menampilkan harga bunga berdasarkan jumlah tangkai (2, 12, 20)
-🛠️ Teknologi yang Digunakan
+- 👤 Profile: Menampilkan informasi tentang toko
+- 📝 Form:
+- Pendaftaran member
+- Formulir pembelian (dengan promo otomatis mengisi jenis bunga dan jumlah tangkai)
+- Komentar pengguna
+- 📞 Contact Us: Halaman kontak (Instagram, email, dll)
+- 🧾 Tabel Harga Bunga: Menampilkan harga bunga berdasarkan jumlah tangkai (2, 12, 20)
+- 🛠️ Teknologi yang Digunakan
 
-HTML5
-CSS3 & Bootstrap 5
-PHP (tanpa CMS)
-Modal Bootstrap
-Interaktif menggunakan JavaScript dasar (untuk form dan promo)
-🗂️ Struktur File (Contoh)
-Toko-Bunga/
-├── bunga/
-│ └── bunga_duka
-│ └── Calla Lily Putih.webp
-│ └── Iris Putih atau Biru.JPG
-│ └── Krisan Putih.JPG
-│ └── mawar putih.PNG
-│ └── bunga_graduation
-│ └── Carnation (Anyelir warna cerah).JPG
-│ └── dahlia.JPG
-│ └── Garbera Daisy.JPG
-│ └── Lisianthus (Eustoma.JPG
-│ └── bunga_romance
-│ └── Baby’s Breath.avif
-│ └── buket Lily Casablanca.webp
-│ └── Hydrangea Pink.JPEG
-│ └── peony.JPG
-│ └── red rose.PNG
-│ └── bunga_ultah
-│ └── Alstroemeria.JPG
-│ └── bunga Lily Oriental.PNG
-│ └── bunga tulip.JPG
-│ └── Sunflower.PNG
-│ └── gif
-│ └── gif1
-│ └── gif2
-│ └── gif4
-├── foto_stories/ (buat menyimpan foto yang diupload dari halaman stories)
-├── pict/ (masukkan 2 foto untuk foto profil ig dan juga email)
-├── about.php
-├── about.css
-├── form.php
-├── contact.php
-├── contact.css
-├── explore_bloom.php
-├── explore_bloom.css
-├── navbar.php
-├── footer.php
-├── hf.css
-├── home.php
-├── home.css
-├── order.php
-├── order.css
-├── stories.php
-├── stories.css
-├── proses_stories.php
-├── koneksi.php
-├── lalunay.sql (database untuk lalunayy, bisa diimpor terlebih dahulu ke dalam MySQL atau di phpmyadmin)
-└── README.md
+## HTML5
+- CSS3 & Bootstrap 5
+- PHP (tanpa CMS)
+- Modal Bootstrap
+- Interaktif menggunakan JavaScript dasar (untuk form dan promo)
 
-📌 Cara Menjalankan Secara Lokal
+## 🗂️ Struktur File Proyek Toko-Bunga/<br>
+Toko-Bunga/<br>
+├── bunga/<br>
+│    ├── bunga_duka/<br>
+│    │    ├── Calla Lily Putih.webp<br>
+│    │    ├── Iris Putih atau Biru.JPG<br>
+│    │    ├── Krisan Putih.JPG<br>
+│    │    └── mawar putih.PNG<br>
+│    ├── bunga_graduation/<br>
+│    │    ├── Carnation (Anyelir warna cerah).JPG<br>
+│    │    ├── dahlia.JPG<br>
+│    │    ├── Garbera Daisy.JPG<br>
+│    │    └── Lisianthus (Eustoma).JPG<br>
+│    ├── bunga_romance/<br>
+│    │    ├── Baby’s Breath.avif<br>
+│    │    ├── buket Lily Casablanca.webp<br>
+│    │    ├── Hydrangea Pink.JPEG<br>
+│    │    ├── peony.JPG<br>
+│    │    └── red rose.PNG<br>
+│    ├── bunga_ultah/<br>
+│    │    ├── Alstroemeria.JPG<br>
+│    │    ├── bunga Lily Oriental.PNG<br>
+│    │    ├── bunga tulip.JPG<br>
+│    │    └── Sunflower.PNG<br>
+│    └── gif/<br>
+│        ├── gif1<br>
+│        ├── gif2<br>
+│        └── gif4<br>
+├── foto_stories/     ( foto upload dari halaman stories )<br>
+├── pict/     ( foto profil IG & email ) <br>
+├── about.php<br>
+├── about.css<br>
+├── contact.php<br>
+├── contact.css<br>
+├── explore_bloom.php<br>
+├── explore_bloom.css<br>
+├── form.php<br>
+├── home.php<br>
+├── home.css<br>
+├── order.php<br>
+├── order.css<br>
+├── stories.php<br>
+├── stories.css<br>
+├── proses_stories.php<br>
+├── koneksi.php<br>
+├── lalunay.sql     ( database MySQL ) <br>
+├── navbar.php<br>
+├── footer.php<br>
+├── hf.css<br>
+└── README.md<br>
 
-Clone atau download repository ini
-Import database lalunay.sql ke MySQL (via phpMyAdmin/XAMPP)
-Letakkan folder project ke dalam htdocs (jika pakai XAMPP)
-Jalankan http://localhost/Toko Bunga di browser
-Login atau buat akun untuk akses gallery
+## 📌 Cara Menjalankan Secara Lokal
+1. Clone atau download repository ini
+2. Import database `lalunay.sql` ke MySQL (via phpMyAdmin/XAMPP)
+3. Letakkan folder project ke dalam `htdocs` (jika pakai XAMPP)
+4. Jalankan `http://localhost/Toko-Bunga` di browser
+5. Login atau buat akun untuk akses gallery
 
-👨‍💻 Author
-
-Kidfirul Abid Muqodimi – Mahasiswa Teknik Informatika
+## 👨‍💻 Author
+**Kidfirul Abid Muqodimi** – Mahasiswa Teknik Informatika  
 Proyek tugas UAS Web 1 Semester 4
 
+---
 :)
+
